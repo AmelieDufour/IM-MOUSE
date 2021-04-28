@@ -1,0 +1,104 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family:'Montserrat', sans-serif; 
+}
+/*partie estelle*************************************************************************/
+/*header*/
+#bg-image{
+    background-position-y: 50%;
+}
+.green{
+    font-size: 20px;
+    color: #4B8F8C;
+}
+.green:hover{
+    color:#4B8F8C;
+    font-weight: bold;
+}
+.textH1{
+    background-color: rgba(75, 143, 140, 0.5) ;
+    color: white;
+}
+
+/*-------------Estimation----------*/
+.container-fluid{
+    background-color: #DFDFDF;
+    font-family: 'Montserrat';
+}
+.containerEstimation{
+    background-color: rgba(75, 143, 140, 0.5);   
+}
+.formEstimation{
+    background-color: rgba(255, 255, 255, 0.7);
+}
+.enteteEstimation{
+    background-color:#4B8F8C;
+    width: 100%;   
+}
+.bg-green{
+    background-color:#4B8F8C;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)
+}
+.btnCarré{
+    height: 8em;
+    width: 8em;
+}
+#btnEstimation{
+    color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)
+}
+#btnEstimation:hover{
+    color:#4B8F8C;
+    background-color: white;
+    border: #4B8F8C solid 2px;    
+}
+.pageActive{
+    font-weight: bold;
+}
+/* Réseaux sociaux*/
+.fa-instagram, .fa-facebook-square, .fa-twitter-square {
+    font-size: 3em;
+    color: #4B8F8C;
+}
+.titresBlocs{
+    color: #4B8F8C;
+    font-weight: bolder;
+    font-size: 2em;
+}
+/*partie Amélie*************************************************************************/
+/*Footer*/ 
+
+.footer {
+    background-color: #4B8F8C;
+}
+.footerItem{
+    text-decoration: none;
+    color: #F9F9F9;
+}
+.footerItem:hover {
+    text-decoration: none underline;
+    color: #F9F9F9;
+}
+/*FLÊCHE VERS LE HAUT*/
+#scroll_to_top {
+    position: fixed;
+    width: 25px;
+    height: 25px;
+    bottom: 15px;
+    right: 20px;
+}
+#scroll_to_top img {
+    width:25px;
+    position: fixed;     
+}
+/*medias*/
+@media screen and (max-width: 992px){
+    #navbarSupportedContent{
+        background-color: white;
+    }
+    }

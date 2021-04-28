@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family:'Montserrat', sans-serif; 
+}
+
+/* HEADER */
+
+#bg-image{
+    background-position-y: 50%;
+}
+.green{
+    font-size: 20px;
+    color: #4B8F8C;
+}
+.green:hover{
+    color:#4B8F8C;
+    font-weight: bold;
+}
+.textH1{
+    background-color: rgba(75, 143, 140, 0.5) ;
+    color: white;
+}
+.pageActive{
+    font-weight: bold;
+}
+
+/* Agence */
+.container-fluid{
+    background-color: #DFDFDF;
+}
+.bg-green{
+    background-color: #4B8F8C;
+}
+.white-title{
+    color: white;
+    font-size: 2em;
+    font-weight: bold;
+}
+.textAgence{
+    font-size: 1.3em;
+}
+.greenTitle{
+    color: #4B8F8C;
+    font-size: 2em;
+    font-weight: bold;
+}
+.textEquipe{
+    color: #707070;
+    font-size: 1em;
+}
+.photoAgents{
+     width: 130px;
+}
+.nomAgents{
+    font-size: 1.3em;
+    color: #4B8F8C;
+}
+
+/*Avis clients*/
+.avisClient{
+    color: #4B8F8C;
+}
+.fa-star, .fa-star-half-alt{
+    color: rgb(251, 255, 0);
+}
+
+/* Réseaux sociaux*/
+.fa-instagram, .fa-facebook-square, .fa-twitter-square {
+    font-size: 3em;
+    color: #4B8F8C;
+}
+
+/*Footer*/ 
+.footer {
+    background-color: #4B8F8C;
+}
+.footerItem{
+    text-decoration: none;
+    color: #F9F9F9;
+}
+.footerItem:hover {
+    text-decoration: none underline;
+    color: #F9F9F9;
+}
+/*FLÊCHE VERS LE HAUT*/
+#scroll_to_top {
+    position: fixed;
+    width: 25px;
+    height: 25px;
+    bottom: 15px;
+    right: 20px;
+}
+#scroll_to_top img {
+    width:25px;
+    position: fixed;     
+}
+
+/*medias*/
+@media screen and (max-width: 992px){   /* Navbar/menu burger */
+    #navbarSupportedContent{
+        background-color: white;
+    }
+    }
+@media screen and (max-width: 480px) {  /* Photo agence disparait version mobile */
+    .imgAgence {
+        display: none;
+    }
+    }
+@media screen and (max-width: 1600px) and (min-width:990px) {   /* Équipe desktop > équipe mobile disparait */
+    .equipeMobile{
+        display: none;
+    }
+    }
+@media screen and (max-width: 990px) {  /* Équipe mobile > équipe desktop disparait */
+    .equipeDesktop{
+         display: none;
+    }
+    }  
+/*medias*/
+@media screen and (max-width: 992px){
+    #navbarSupportedContent{
+        background-color: white;
+    }
+    }  

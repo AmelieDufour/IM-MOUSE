@@ -1,0 +1,103 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family:'Montserrat', sans-serif; 
+}
+/*header*/
+#bg-image{
+    background-position-y: 50%;
+}
+.green{
+    font-size: 20px;
+    color: #4B8F8C;
+}
+.green:hover{
+    color:#4B8F8C;
+    font-weight: bold;
+}
+.textH1{
+    background-color: rgba(75, 143, 140, 0.5) ;
+    color: white;
+}
+/*contact*/
+.pageActive{
+    font-weight: bold;
+}
+.white-title{
+    color: white;
+    font-size: 2em;
+    font-weight: bold;
+} 
+h2{
+    font-weight: bold;
+    color: #4B8F8C;   
+    padding: 10px;
+}
+.sectionRecherche{
+    background-color: #4B8F8C;
+}
+
+/*réseaux et footer*/
+.container-fluid{
+    background-color: #DFDFDF;
+    font-family: 'Montserrat'
+}
+.titresBlocs{
+    color: #4B8F8C;
+    font-weight: bolder;
+    font-size: 2em;
+}
+/*Infos pratiques*/
+.adresse{
+    color: #707070;
+    font-weight: bold;
+}
+.map {
+    width: 100%;
+}
+.horaires{
+    background-color: #4B8F8C;
+    color: #F9F9F9;
+    font-size: 1.5em;
+}
+.bold{
+    font-weight: bold;
+}
+.fa-instagram, .fa-facebook-square, .fa-twitter-square {
+    font-size: 3em;
+    color: #4B8F8C;
+}
+/*Footer*/ 
+.footer {
+    background-color: #4B8F8C;
+}
+.footerItem{
+    text-decoration: none;
+    color: #F9F9F9;
+}
+.footerItem:hover {
+    text-decoration: none underline;
+    color: #F9F9F9;
+}
+/*FLÊCHE VERS LE HAUT*/
+#scroll_to_top {
+    position: fixed;
+    width: 25px;
+    height: 25px;
+    bottom: 15px;
+    right: 20px;
+}
+#scroll_to_top img {
+    width:25px;
+    position: fixed;     
+}
+/*medias*/
+@media screen and (max-width: 992px){
+#navbarSupportedContent{
+    background-color: white;
+}
+}
